@@ -141,7 +141,7 @@ If you find the paper useful in your research, please consider citing:
 @inproceedings{dpa,
   title={Dual-Perspective Activation: Efficient Channel Denoising via Joint Forward-Backward Criterion for Artificial Neural Networks},
   author={Qiu, Tian and Gao, Chenchao and Feng, Zunlei and Lei, Jie and Hu, Bingde and Wang, Xingen and Gao, Yi and Song, Mingli},
-  booktitle={Neural Information Processing Systems},
+  booktitle={Advances in Neural Information Processing Systems},
   year={2024}
 }
 ```
