@@ -74,12 +74,6 @@ class CIFAR10(BaseDataset):
 
         self._load_meta()
 
-        # cls_id = 9
-        # self.targets = np.array(self.targets)
-        # self.data = self.data[self.targets == cls_id]
-        # self.targets = self.targets[self.targets == cls_id]
-        # print(self.data.shape, self.targets.shape)
-
     def _load_meta(self):
         path = os.path.join(self.root, self.base_folder, self.meta["filename"])
         if not check_integrity(path, self.meta["md5"]):
