@@ -29,7 +29,7 @@ class DPA(nn.Module):
             if self.global_pool == 'token':
                 self.memory.update_grad(grad_output[0][:, 0], self.targets)
             elif self.global_pool == 'avg':
-                self.memory.update_grad(grad_output[0].mean(-1, -2), self.targets)
+                self.memory.update_grad(grad_output[0].mean((-1, -2)), self.targets)
             else:
                 raise ValueError
 

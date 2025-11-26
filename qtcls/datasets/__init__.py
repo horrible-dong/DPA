@@ -49,7 +49,7 @@ def build_dataset(args, split, download=True):
         aug_kwargs = _build_timm_aug_kwargs(args, image_size, mean, std)
         transform = {
             'train': create_transform(**aug_kwargs['train_aug_kwargs']),
-            'test': create_transform(**aug_kwargs['eval_aug_kwargs']),
+            'test': create_transform(**aug_kwargs['eval_aug_kwargs'])
         }
 
         return CIFAR10(root=dataset_path,
@@ -65,7 +65,7 @@ def build_dataset(args, split, download=True):
         aug_kwargs = _build_timm_aug_kwargs(args, image_size, mean, std)
         transform = {
             'train': create_transform(**aug_kwargs['train_aug_kwargs']),
-            'test': create_transform(**aug_kwargs['eval_aug_kwargs']),
+            'test': create_transform(**aug_kwargs['eval_aug_kwargs'])
         }
 
         return CIFAR100(root=dataset_path,
@@ -78,7 +78,7 @@ def build_dataset(args, split, download=True):
         aug_kwargs = _build_timm_aug_kwargs(args, image_size, mean, std)
         transform = {
             'train': create_transform(**aug_kwargs['train_aug_kwargs']),
-            'val': create_transform(**aug_kwargs['eval_aug_kwargs']),
+            'val': create_transform(**aug_kwargs['eval_aug_kwargs'])
         }
 
         return ImageNet(root=dataset_path,

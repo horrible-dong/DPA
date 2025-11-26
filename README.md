@@ -2,13 +2,13 @@ Dual-Perspective Activation: Efficient Channel Denoising via Joint Forward-Backw
 ========
 
 [![conference](https://img.shields.io/badge/Conference-NeurIPS_2024-ff69b4)](https://neurips.cc/Conferences/2024)
-&emsp;[![code-framework](https://img.shields.io/badge/Code_Framework-QTClassification--v0.8.0-brightgreen)](https://github.com/horrible-dong/QTClassification)
+&emsp;[![code-framework](https://img.shields.io/badge/Code_Framework-QTClassification_v0.8.0-brightgreen)](https://github.com/horrible-dong/QTClassification)
 &emsp;[![doc](https://img.shields.io/badge/Docs-Latest-orange)](README.md)
-&emsp;[![license](https://img.shields.io/badge/License-Apache--2.0-blue)](LICENSE)
+&emsp;[![license](https://img.shields.io/badge/License-Apache_2.0-blue)](LICENSE)
 
 > Authors: Tian Qiu, Chenchao Gao, Zunlei Feng, Jie Lei, Bingde Hu, Xingen Wang, Yi Gao, Mingli Song  
 > Affiliation: Zhejiang University  
-> Links: [[Paper]](https://openreview.net/pdf?id=Ku35qKpveg) | [[Poster]](poster.pdf)
+> [[Paper]](https://openreview.net/pdf?id=Ku35qKpveg) | [[Poster]](poster.pdf)
 
 ## Abstract
 
@@ -27,7 +27,7 @@ Moreover, DPA is parameter-free, fast, applicable to many mainstream ANN archite
 performance compared to other existing activation counterparts across multiple tasks and domains.
 
 <div align="center">
-  <img src="figures/teaser.svg" width="400"/>
+  <img src="figures/framework.svg" width="400"/>
 </div>
 
 ## Installation

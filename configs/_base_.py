@@ -6,11 +6,12 @@ seed = 42
 epochs = 300
 clip_max_norm = 1.0
 eval_interval = 1
-num_workers = 8
+num_workers = None  # auto
 pin_memory = True
 sync_bn = True
 find_unused_params = False
 dist_url = 'env://'
+dist_backend = 'nccl'
 print_freq = 50
 need_targets = False
 amp = True
@@ -43,5 +44,5 @@ evaluator = 'default'
 no_pretrain = True
 
 # saving
-output_root = "./runs"
 save_interval = 5
+output_root = './runs'

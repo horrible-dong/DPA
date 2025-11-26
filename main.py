@@ -58,9 +58,6 @@ def get_args_parser():
     parser.add_argument('--image_size', type=int)
     parser.add_argument('--train_aug_kwargs', default=dict())
     parser.add_argument('--eval_aug_kwargs', default=dict())
-    parser.add_argument('--train_batch_aug_kwargs', default=dict())
-    parser.add_argument('--eval_batch_aug_kwargs', default=dict())
-    parser.add_argument('--label_smoothing', type=float, default=0.0, help='for LabelSmoothingCrossEntropy')
 
     # model
     parser.add_argument('--model_lib', default='default', type=str, choices=['default', 'timm'], help='model library')

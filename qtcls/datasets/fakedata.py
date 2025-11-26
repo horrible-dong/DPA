@@ -23,8 +23,6 @@ class FakeData(BaseDataset):
         random_offset (int): Offsets the index-based random seed used to generate each image. Default: 0
         transform (callable, optional): A function/transform that takes in an PIL image and transforms it.
         target_transform (callable, optional): A function/transform that takes in the target and transforms it.
-        batch_transform (callable, optional): A function/transform that takes in a batch and transforms it.
-
     """
 
     def __init__(self, size: int, split: str = 'train', image_size: Tuple[int, int, int] = (3, 224, 224),
